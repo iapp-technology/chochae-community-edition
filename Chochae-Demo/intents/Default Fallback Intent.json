@@ -1,0 +1,45 @@
+{
+  "id": "6cf4429b-b41c-4a97-8edf-1f4207366ee6",
+  "name": "Default Fallback Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "th",
+          "condition": "",
+          "speech": [
+            "ฉันไม่เข้าใจค่ะ พูดใหม่ได้ไหมคะ",
+            "อะไรนะคะ พูดใหม่ได้ไหมคะ",
+            "ขอโทษค่ะ ลองพูดอีกครั้งได้ไหมคะ",
+            "ขอโทษค่ะ พูดอีกครั้งได้ไหมคะ",
+            "พูดอีกทีได้ไหมคะ",
+            "ขอโทษค่ะ ฉันไม่เข้าใจค่ะ",
+            "ขอโทษค่ะ อะไรนะคะ",
+            "อีกทีได้ไหมคะ",
+            "ว่ายังไงนะคะ",
+            "ช่วยพูดอีกทีได้ไหมคะ",
+            "ฉันไม่เข้าใจค่ะ",
+            "ฉันฟังไม่ทันค่ะ"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
