@@ -1,13 +1,13 @@
 # Chochae Community Edition
-## Opensource and On-Premise Thai Chatbot Building Platform
+## Opensource and On-Premise Thai Chatbot Engine
 
 ### Feature
 * Intent Classification
 * Text and Payload Responses
 * Context
-* Slot filling
+* Action and Parameter (Slot filling)
 * Fallback Intent
-* Rest API
+* REST API
 * Import Bot from Google Dialogflow!
 
 ### Supported Channel
