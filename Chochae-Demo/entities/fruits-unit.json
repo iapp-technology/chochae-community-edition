@@ -1,0 +1,9 @@
+{
+  "id": "47e89320-dfd0-42a6-816c-524d528b6673",
+  "name": "fruits-unit",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

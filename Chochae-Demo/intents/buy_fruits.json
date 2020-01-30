@@ -1,0 +1,81 @@
+{
+  "id": "d8f4c4de-03fc-4bc3-b8dd-74bd4e2573da",
+  "name": "buy_fruits",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "72f708b6-a922-49ed-b085-ee0dd18e2d8a",
+          "required": true,
+          "dataType": "@fruits",
+          "name": "fruits",
+          "value": "$fruits",
+          "prompts": [
+            {
+              "lang": "th",
+              "value": "ต้องการผลไม้อะไรคะ?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "da109997-cd7e-41e0-af80-8ac1a5dc24c1",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "prompts": [
+            {
+              "lang": "th",
+              "value": "แจ้งจำนวนด้วยค่ะ (กิโลกรัม)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "d0a19ce2-fe40-4124-bd89-dd3feaa3c22f",
+          "required": false,
+          "dataType": "@fruits-unit",
+          "name": "fruits-unit",
+          "value": "$fruits-unit",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "กิโลกรัม",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "th",
+          "condition": "",
+          "speech": "ได้เลยค่ะ ทางเจ๊าะแจ๊ะได้รับคำสั่งซื้อ $fruits จำนวน $number $fruits-unit"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

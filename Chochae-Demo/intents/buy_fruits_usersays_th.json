@@ -1,0 +1,290 @@
+[
+  {
+    "id": "eb314bf1-0fb3-4223-9ebc-d42ff85717a7",
+    "data": [
+      {
+        "text": "มะม่วง",
+        "alias": "fruits",
+        "meta": "@fruits",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "กิโล",
+        "alias": "fruits-unit",
+        "meta": "@fruits-unit",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ce432a94-3d82-4203-9757-961c3dd7c7ec",
+    "data": [
+      {
+        "text": "ส้ม",
+        "alias": "fruits",
+        "meta": "@fruits",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "โล",
+        "alias": "fruits-unit",
+        "meta": "@fruits-unit",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "25e49361-0e06-4b84-98a1-b010d1a6e56f",
+    "data": [
+      {
+        "text": "ขอ",
+        "userDefined": false
+      },
+      {
+        "text": "ส้ม",
+        "alias": "fruits",
+        "meta": "@fruits",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "โล",
+        "alias": "fruits-unit",
+        "meta": "@fruits-unit",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1e55b372-6059-4db5-91f5-1940f9cc80f3",
+    "data": [
+      {
+        "text": "แตงโม",
+        "alias": "fruits",
+        "meta": "@fruits",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "30",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "ลูก",
+        "alias": "fruits-unit",
+        "meta": "@fruits-unit",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c1b726f1-fc4d-4868-9d86-c9bae43b654d",
+    "data": [
+      {
+        "text": "ขอ",
+        "userDefined": false
+      },
+      {
+        "text": "แตงโม",
+        "alias": "fruits",
+        "meta": "@fruits",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "ลูก",
+        "alias": "fruits-unit",
+        "meta": "@fruits-unit",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7f4d9c72-73a6-4d89-b9d9-bc98f4f7b698",
+    "data": [
+      {
+        "text": "สั่งซื้อ",
+        "userDefined": false
+      },
+      {
+        "text": "แตงโม",
+        "alias": "fruits",
+        "meta": "@fruits",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fb159970-320c-4404-bf9f-499a90fc011b",
+    "data": [
+      {
+        "text": "สั่งซื้อผลไม้",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "229c4fb3-3109-4ca9-8bfc-4d188d23e7a3",
+    "data": [
+      {
+        "text": "ผลไม้",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "152db0ad-bdf1-4257-b3a1-6c007589cb1f",
+    "data": [
+      {
+        "text": "ซื้อผลไม้หน่อย",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7d4eeb70-0b2e-4769-b8f6-53c32cb99c10",
+    "data": [
+      {
+        "text": "ซื้อ",
+        "userDefined": false
+      },
+      {
+        "text": "ส้ม",
+        "alias": "fruits",
+        "meta": "@fruits",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d599c54c-0a09-48aa-a2c9-aa7dc2fc74ef",
+    "data": [
+      {
+        "text": "ซื้อ",
+        "userDefined": false
+      },
+      {
+        "text": "มะม่วง",
+        "alias": "fruits",
+        "meta": "@fruits",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "30",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "โล",
+        "alias": "fruits-unit",
+        "meta": "@fruits-unit",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]
