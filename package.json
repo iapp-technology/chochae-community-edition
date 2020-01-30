@@ -4,10 +4,9 @@
   "description": "Opensource and On-Premise Thai Chatbot Building Platform",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "debug": "node --nolazy --inspect-brk=9229 server.js"
+    "start": "ts-node ./src/server.ts"
   },
-  "author": "",
+  "author": "iApp Technology Co, Ltd.",
   "license": "ISC",
   "dependencies": {
     "bluebird": "^3.5.5",
@@ -18,5 +17,12 @@
     "moment": "^2.20.1",
     "request": "^2.83.0",
     "wordcut": "^0.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^13.5.1",
+    "ts-node": "^8.6.2",
+    "tslint": "^6.0.0",
+    "tslint-config-airbnb-base": "^0.3.0",
+    "typescript": "^3.7.5"
   }
 }

@@ -8,6 +8,7 @@
 * Slot filling
 * Fallback Intent
 * Rest API
+* Parameter Replacement
 * Import Bot from Google Dialogflow!
 
 ### Supported Channel
@@ -18,7 +19,7 @@
 2. ```git clone https://github.com/iapp-technology/chochae-community-edition.git```
 3. Export your bot from Google dialogflow (Gear > Export and Import > Export as ZIP)
 4. Unzip your bot into chochae-community-edition folder.
-5. Copy sample .env file from .env.sample ``mv .env.sample .env``
+5. Copy sample .env file from .env.template ``mv .env.template .env``
 6. Open ``.env`` file and enter your unzipped bot folder path e.g., ``DIALOGFLOW_BOT_FOLDER_PATH=./Chochae-Demo``
 7. Run ``npm install`` for install required dependencies.
 8. Run ``npm run start`` for start up the server at PORT 4000.
