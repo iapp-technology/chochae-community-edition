@@ -17,12 +17,12 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
 
-import Log from './utils/log.js';
-const log = new Log('load.js');
+import Log from './utils/log';
+const log = new Log('load.ts');
 import { Bot } from './types';
 import fs from 'fs';
 
-function loadDialogFlowBot(dialogflowFolderPath: string) {
+export function loadDialogFlowBot(dialogflowFolderPath: string) {
   // Processing Intents
   const bot: Bot = {
     fallbackIntentIndex: -1,
@@ -111,7 +111,3 @@ function loadDialogFlowBot(dialogflowFolderPath: string) {
 
   return bot;
 }
-
-module.exports = {
-  loadDialogFlowBot,
-};

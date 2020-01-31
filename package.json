@@ -1,13 +1,13 @@
 {
   "name": "chochae-community-edition",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Opensource and On-Premise Thai Chatbot Building Platform",
   "main": "server.js",
   "scripts": {
-    "start": "ts-node ./src/server.ts"
+    "start": "ts-node --transpileOnly ./src/server.ts"
   },
   "author": "iApp Technology Co, Ltd.",
-  "license": "ISC",
+  "license": "AGPLv3",
   "dependencies": {
     "bluebird": "^3.5.5",
     "cors": "^2.8.4",

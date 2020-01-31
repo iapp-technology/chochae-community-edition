@@ -1,6 +1,20 @@
-export type Bot = {
+type Bot = {
   fallbackIntentIndex: number,
-  intents: object[],
+  intents: Intent[],
   entities: {},
-  fullIntent: {},
 };
+
+type Intent = {
+  index: number,
+  name: string,
+  usersays?: any[],
+  score?: number,
+  parameters?: object,
+  slotFillingResponse?: any[],
+  contextMemory?: object,
+  responses?: any[],
+  fullIntent?: {},
+  contexts?: any[],
+};
+
+export { Bot, Intent };

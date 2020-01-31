@@ -1,13 +1,12 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "strictNullChecks": false,
     "esModuleInterop": true,
     "target": "es6",
     "noImplicitAny": false,
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
-    "strict": true,
+    "strict": false,
     "noUnusedLocals": true,
     "moduleResolution": "node",
     "sourceMap": true,

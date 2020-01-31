@@ -24,7 +24,7 @@ https://en.wikipedia.org/wiki/Naive_Bayes_classifier
 
 const wordcut = require("wordcut");
 const fs = require("fs");
-const Log = require("../utils/log.js");
+const Log = require("../utils/log.ts");
 wordcut.init();
 const naive_baye = require("../intent-classifiers/naive_baye");
 let csv = require('csv-parser');
