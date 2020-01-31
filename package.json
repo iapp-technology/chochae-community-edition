@@ -2,7 +2,7 @@
   "name": "chochae-community-edition",
   "version": "0.0.3",
   "description": "Opensource and On-Premise Thai Chatbot Building Platform",
-  "main": "server.js",
+  "main": "./dist/server.js",
   "scripts": {
     "start": "ts-node --transpileOnly ./src/server.ts"
   },
