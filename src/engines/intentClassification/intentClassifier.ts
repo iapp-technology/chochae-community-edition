@@ -17,7 +17,7 @@ You should have received a copy of the GNU Affero General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-import { Bot, Intent } from '../../types';
+import { Bot, Intent, Entity, Entities } from '../../types';
 import naiveBaye from './naiveBaye';
 import _ from 'lodash';
 
@@ -28,6 +28,7 @@ export default class intentClassifier{
   bot: Bot;
   contextMemory: object = {};
   intents: Intent[] = [];
+  entities: Entities;
   parameterValue: object = {};
   activeSlotfillingIndex: number = -1;
   naiveBaye:naiveBaye;
@@ -67,6 +68,7 @@ export default class intentClassifier{
         intent!.usersays!.push(entireConversation);
       }
       this.intents.push(intent);
+      this.entities = bot.entities;
     }
 
     log.d('Intents', this.intents);
@@ -151,6 +153,14 @@ export default class intentClassifier{
         // If already found parameters, skip.
         if (this.parameterValue[p.name]) {
           continue;
+        }
+
+        // Loop through the entities
+        for (const key in this.entities){
+          if (this.entities.hasOwnProperty(key)){
+            const entity = this.entities[key];
+            // TODO: Matching with entities
+          }
         }
 
         // Matching pattern

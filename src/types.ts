@@ -1,7 +1,7 @@
 type Bot = {
   fallbackIntentIndex: number,
   intents: Intent[],
-  entities: {},
+  entities: Entities,
 };
 
 type Intent = {
@@ -17,4 +17,13 @@ type Intent = {
   contexts?: any[],
 };
 
-export { Bot, Intent };
+type Entity = {
+  value: string,
+  synonym: string[],
+};
+
+type Entities = {
+  [key:string]: Entity[],
+};
+
+export { Bot, Intent, Entity, Entities };
